@@ -1,0 +1,16 @@
+body
+h1 {
+position: absolute;
+width: 467px;
+height: 130px;
+left: 39px;
+top: 28px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 130px;
+line-height: 157px;
+
+color: #FF0000;
+}
