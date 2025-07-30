@@ -106,3 +106,49 @@ nav.navbar a {
     display: inline-block;
     margin-top: 10px;
 }
+.trending img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+.footer {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer p {
+    margin: 0;
+    color: black;
+}   
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}   
+.footer img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.footer nav {
+    display: flex;
+    text-align: start;
+    margin-bottom: 10px;
+    gap:20px;
+}
+.footer .social-links {
+    display: flex;
+    gap: 10px;
+}
+.footer .social-links a {
+    color: black;
+    font-size: 20px;
+}
