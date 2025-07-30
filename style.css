@@ -4,18 +4,12 @@ body{
     box-sizing: border-box;
     background-color: hsl(0, 0%, 100%);  
 }
-h1 {
-position: absolute;
-width: 467px;
-height: 130px;
-left: 39px;
-top: 28px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 130px;
-line-height: 157px;
-
-color: #FF0000;
+a {
+    text-decoration: none;
+    color: inherit;   
+}
+img {
+    max-width: 100%;
+    display:block;
 }
