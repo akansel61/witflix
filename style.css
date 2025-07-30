@@ -6,6 +6,15 @@ body{
     color: black;  
 }
 
+#home {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 10px 20px;
+    color: red;
+}
+
+
 a {
     text-decoration: none;
     color: inherit;   
