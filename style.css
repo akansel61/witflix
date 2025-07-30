@@ -23,3 +23,27 @@ img {
     max-width: 100%;
     display:block;
 }
+
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+nav.navbar a {
+    margin: 0 10px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 45px;
+    background-color: white;
+    border-bottom: 1px solid red;
+}
