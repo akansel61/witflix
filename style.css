@@ -132,7 +132,7 @@ nav a {
    
 
 .trending-poster {
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
    
 }
@@ -162,11 +162,16 @@ nav a {
 .trending button {
     background-color: red;
     color: white;
+    padding: 10px 20px;
+    border: none;       
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
     
      
 }
 .trending img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     border-radius: 6px;
 }
