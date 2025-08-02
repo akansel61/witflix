@@ -89,7 +89,9 @@ nav.navbar a {
 }
 .content {
     padding: 20px;
+    display: flex;
     background-color: black;
+    flex-direction: row;
 }
 .trending {
     display: grid;
