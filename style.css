@@ -4,6 +4,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight:100;
     font-style: normal;
+    
 }   
 
 #home {
@@ -34,10 +35,10 @@ nav.navbar {
     background-color: black;
     border-bottom: 1px solid white;
     padding: 10px 20px;
-    margin: 0 50px;
+    margin: 10px 10px;
 }
 nav.navbar a {
-    margin: 0 10px;
+    margin: 10 10px;
     font-weight: bold;
     color: white;
 }
@@ -84,7 +85,7 @@ nav a {
 }
 .stars {
     display: flex;
-   justify-content:flex-start;
+    justify-content:flex-start;
     align-items: flex-start;
     gap: 5px;
     color: yellow;
@@ -94,7 +95,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 45px;
+    padding: 40px 20px 40px 40px;
     background-color: black;
     border-bottom: 1px solid red;
 }
@@ -192,6 +193,7 @@ footer {
     padding: 20px;
     color: white;
     border-top: 1px solid red;
+    
 }
 
 
