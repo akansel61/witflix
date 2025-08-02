@@ -1,9 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: white;
-    color: black;  
+    background-color: black;
+    color: white;  
 }
 
 #home {
@@ -29,13 +28,13 @@ nav.navbar {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: white;
-    border-bottom: 1px solid #ccc;
+    background-color: black;
+    border-bottom: 1px solid white;
 }
 nav.navbar a {
     margin: 0 10px;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 
@@ -44,7 +43,7 @@ nav.navbar a {
     flex-direction: column;
     align-items: flex-start;
     padding: 45px;
-    background-color: white;
+    background-color: black;
     border-bottom: 1px solid red;
 }
 .hero h1 {
@@ -73,7 +72,7 @@ nav.navbar a {
 }
 .content {
     padding: 20px;
-    background-color: white;
+    background-color: black;
 }
 .trending {
     display: grid;
@@ -85,7 +84,7 @@ nav.navbar a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: black;
     border: 1px solid gray; 
     padding:15px;
     border-radius: 6px;
@@ -112,7 +111,7 @@ nav.navbar a {
     border-radius: 6px;
 }
 .footer {
-    background-color: white;
+    background-color: black;
     text-align: center;
     padding: 20px;
     background-color: white;
