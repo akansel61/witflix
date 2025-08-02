@@ -36,7 +36,21 @@ nav.navbar a {
     font-weight: bold;
     color: white;
 }
-
+.search-container {
+    display: flex;  
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.search-bar {
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+}
+            
 
 .hero {
     display: flex;
