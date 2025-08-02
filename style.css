@@ -37,6 +37,14 @@ nav.navbar a {
     font-weight: bold;
     color: white;
 }
+
+nav a:hover {
+    color: red;
+
+}
+nav a {
+    transition: color 0.3s ease;
+}
 .search{
     display: flex;  
     align-items: center;
