@@ -12,6 +12,7 @@ body {
     align-items: center;
     padding: 10px 20px;
     color: red;
+    justify-content: space-between;
 }
 
 
@@ -167,19 +168,20 @@ nav a {
 }
 footer {
     display: flex;
-    gap: 1rem;
-    margin-left: 20px 0;
-    justify-content: space-between;
-    
+    flex-direction: column;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    border-top: 1px solid red;
 }
+
+
 .footer p {
     font-size: 14px;
     margin: 0;
     padding: 10px 0;
     text-align: center;
-    
-;
-    color: white;
+ 
 }   
 .footer a {
     color: white;
@@ -210,4 +212,5 @@ footer {
 }
 .footer .social-links a:hover {
     color: red;
+    transition: color 0.3s ease;
 }
