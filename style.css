@@ -139,7 +139,7 @@ nav a {
     width: 45vw;
 }
 
-}
+
 .trending section {
     display: flex;
  
@@ -171,7 +171,7 @@ footer {
     color: white;
 }   
 .footer a {
-    color: white
+    color: white;
     font-size: 16px;
     text-decoration: none;
 }
@@ -199,3 +199,4 @@ footer {
 }
 .footer .social-links a:hover {
     color: red;
+}
