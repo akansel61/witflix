@@ -2,8 +2,8 @@ body {
     background-color: black;
     color: white;
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    
+    font-weight:100;
+    font-style: normal;
 }
 
 #home {
@@ -31,9 +31,10 @@ nav.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
     background-color: black;
     border-bottom: 1px solid white;
+    padding: 10px 20px;
+    margin: 0 50px;
 }
 nav.navbar a {
     margin: 0 10px;
@@ -79,6 +80,14 @@ nav a {
     cursor: pointer;
     text-decoration: none;
     
+}
+.stars {
+    display: flex;
+   justify-content:flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    color: yellow;
+
 }
 .hero {
     display: flex;
@@ -146,7 +155,7 @@ nav a {
 .trending {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 30vw;
 }
 
 
