@@ -133,7 +133,7 @@ nav a {
 }
 
 .movie-info {
-     flex-direction: row;
+    flex-direction: row;
     display: flex;
    
 
@@ -147,7 +147,7 @@ nav a {
 
 .trending section {
     display: flex;
- 
+     
 
 }
 .trending h2 {
@@ -168,11 +168,17 @@ nav a {
 footer {
     display: flex;
     gap: 1rem;
+    margin-left: 20px 0;
     justify-content: space-between;
-    align-items: flex-end;
+    
 }
 .footer p {
+    font-size: 14px;
     margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    
+;
     color: white;
 }   
 .footer a {
